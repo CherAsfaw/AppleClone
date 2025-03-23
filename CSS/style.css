@@ -146,7 +146,8 @@ img {
 .upper-text-container a {
   color: #515154;
 }
-
+.fifth-container{
+  background-image: url(../images/home/apple-card.jpg);
 /*Media Query*/
 /* Footer */
 @media (max-width: 768px){
