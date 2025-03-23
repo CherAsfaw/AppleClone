@@ -1,0 +1,34 @@
+/* Main section 1 */
+.macbook-pro{
+    margin-top: 30px;
+}
+.mac-outer {
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+.mac-text {
+    margin-right: 20px; 
+}
+.mac-text a{
+padding: 10px;
+text-decoration: none;
+}
+
+/* Main section 2 */
+.iphone-11-pro{
+    background-image: url("../images/home/iphone11-pro-bg.jpg");
+    height: 480px;
+    text-align: center;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.iphone-11-pro-text{
+    padding-top: 46px;
+}
+.iphone-11-pro-text a{
+    padding: 10px;
+}
+
+
