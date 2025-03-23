@@ -87,6 +87,50 @@ sixth-section {
   max-width: 100%;
   height: auto;
 }
+.sixth-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+  background-color: #fff;
+}
+
+.sixth-section .image {
+  flex: 1;
+  max-width: 50%;
+}
+
+.sixth-section .image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sixth-section .content {
+  flex: 1;
+  text-align: left;
+}
+
+.sixth-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.sixth-section p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.sixth-section .btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #0071e3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
 
 /* Footer Styling */
 .footer-wrapper {
