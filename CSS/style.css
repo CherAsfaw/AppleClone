@@ -1,3 +1,37 @@
+
+/* Main section 1 */
+.macbook-pro{
+    margin-top: 30px;
+}
+.mac-outer {
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+.mac-text {
+    margin-right: 20px; 
+}
+.mac-text a{
+padding: 10px;
+text-decoration: none;
+}
+
+/* Main section 2 */
+.iphone-11-pro{
+    background-image: url("../images/home/iphone11-pro-bg.jpg");
+    height: 480px;
+    text-align: center;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.iphone-11-pro-text{
+    padding-top: 46px;
+}
+.iphone-11-pro-text a{
+    padding: 10px;
+}
+
 /* General Styling*/
 * {
   padding: 0;
@@ -47,61 +81,90 @@ img {
 .unit-wrapper .unit-p2 {
   font-size: 22px;
 }
-/* * Fifth Section: Apple TV+ & AirPods Pro */ */
-.fifth-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 80px 5%;
-    background-color: #f5f5f7;
+sixth-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+  background-color: #f5f5f7;
 }
 
-
-/* Left (Apple TV+) and Right (AirPods Pro) Sections */
-.fifth-section .left,
-.fifth-section .right {
-    display: flex;
-    align-items: center;
-    width: 48%;
+.sixth-section .content {
+  flex: 1;
+  max-width: 50%;
 }
 
-/* Image Styles */
-.fifth-section img {
-    width: 250px;
-    height: auto;
-    border-radius: 10px;
-    margin-right: 20px;
+.sixth-section h2 {
+  font-size: 2.5rem;
+  color: #333;
 }
 
-/* Text Content Styles */
-.fifth-section .text {
-  max-width: 300px;
-}
-
-.fifth-section h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.fifth-section p {
-  font-size: 16px;
+.sixth-section p {
+  font-size: 1.2rem;
   color: #555;
-  margin-bottom: 15px;
+  margin-top: 10px;
 }
 
-/* Button Styles */
-.fifth-section button {
-  background: black;
-  color: white;
+.sixth-section .btn {
+  display: inline-block;
+  margin-top: 15px;
   padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
+  background: #0071e3;
+  color: white;
+  text-decoration: none;
   border-radius: 5px;
+  font-weight: bold;
 }
 
-.fifth-section button:hover {
-  background: #0071e3;
+.sixth-section .image img {
+  max-width: 100%;
+  height: auto;
+}
+.sixth-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+  background-color: #fff;
+}
+
+.sixth-section .image {
+  flex: 1;
+  max-width: 50%;
+}
+
+.sixth-section .image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sixth-section .content {
+  flex: 1;
+  text-align: left;
+}
+
+.sixth-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.sixth-section p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.sixth-section .btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #0071e3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
 /* Footer Styling */
 .footer-wrapper {
   background-color: #f5f5f7;
@@ -175,7 +238,14 @@ img {
 	.footer-links-wrapper h3 {
 		padding: 10px 0;
 		border-bottom: 1px solid #ccc;
-	}
+	} 
+  .fifth-container{
+  background-image: url(../images/home/apple-card.jpg);
+}
+.sixth-container{
+  background-image: url(../images/home/apple-tv-background.jpg);
+}
+
 	.footer-links-wrapper h3::after {
 		font-family: "FontAwesome";
 		content: "\f078";
@@ -215,6 +285,4 @@ img {
   .footer-links-terms {
     margin-top: 10px;
   }
-}
-
 }
