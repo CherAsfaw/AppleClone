@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* Main section 1 */
 .macbook-pro{
     margin-top: 30px;
@@ -32,7 +32,6 @@ text-decoration: none;
     padding: 10px;
 }
 
-=======
 /* General Styling*/
 * {
   padding: 0;
@@ -81,6 +80,89 @@ img {
 }
 .unit-wrapper .unit-p2 {
   font-size: 22px;
+}
+sixth-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+  background-color: #f5f5f7;
+}
+
+.sixth-section .content {
+  flex: 1;
+  max-width: 50%;
+}
+
+.sixth-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.sixth-section p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.sixth-section .btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #0071e3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.sixth-section .image img {
+  max-width: 100%;
+  height: auto;
+}
+.sixth-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+  background-color: #fff;
+}
+
+.sixth-section .image {
+  flex: 1;
+  max-width: 50%;
+}
+
+.sixth-section .image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sixth-section .content {
+  flex: 1;
+  text-align: left;
+}
+
+.sixth-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.sixth-section p {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.sixth-section .btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #0071e3;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 /* Footer Styling */
@@ -156,7 +238,14 @@ img {
 	.footer-links-wrapper h3 {
 		padding: 10px 0;
 		border-bottom: 1px solid #ccc;
-	}
+	} 
+  .fifth-container{
+  background-image: url(../images/home/apple-card.jpg);
+}
+.sixth-container{
+  background-image: url(../images/home/apple-tv-background.jpg);
+}
+
 	.footer-links-wrapper h3::after {
 		font-family: "FontAwesome";
 		content: "\f078";
@@ -197,5 +286,3 @@ img {
     margin-top: 10px;
   }
 }
->>>>>>> d48f79d3265a5115b17007d40a1c30f788a73c14
-
