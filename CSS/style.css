@@ -1,36 +1,4 @@
 
-/* Main section 1 */
-.macbook-pro {
-  margin-top: 30px;
-}
-.mac-outer {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.mac-text {
-  margin-right: 20px;
-}
-.mac-text a {
-  padding: 10px;
-  text-decoration: none;
-}
-
-/* Main section 2 */
-.iphone-11-pro {
-  background-image: url("../images/home/iphone11-pro-bg.jpg");
-  height: 480px;
-  text-align: center;
-  color: white;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.iphone-11-pro-text {
-  padding-top: 46px;
-}
-.iphone-11-pro-text a {
-  padding: 10px;
-}
 
 /* General Styling*/
 * {
@@ -165,6 +133,19 @@ sixth-section {
   font-weight: bold;
 }
 
+.unit-wrapper .unit-part {
+  font-size: 28px;
+  line-height: 26px;
+}
+.iphone-wrapper {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 580px;
+}
+.iphone11-container {
+  background-image: url(../images/home/iphone11-colored.jpg);
+}
 /* Footer Styling */
 .footer-wrapper {
   background-color: #f5f5f7;
@@ -285,3 +266,4 @@ sixth-section {
   .footer-links-terms {
     margin-top: 10px;
   }
+}
