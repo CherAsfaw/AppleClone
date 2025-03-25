@@ -1,38 +1,36 @@
-<<<<<<< HEAD
 /* Main section 1 */
-.macbook-pro{
-    margin-top: 30px;
+.macbook-pro {
+  margin-top: 30px;
 }
 .mac-outer {
-    justify-content: center; 
-    align-items: center; 
-    text-align: center; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .mac-text {
-    margin-right: 20px; 
+  margin-right: 20px;
 }
-.mac-text a{
-padding: 10px;
-text-decoration: none;
+.mac-text a {
+  padding: 10px;
+  text-decoration: none;
 }
 
 /* Main section 2 */
-.iphone-11-pro{
-    background-image: url("../images/home/iphone11-pro-bg.jpg");
-    height: 480px;
-    text-align: center;
-    color: white;
-    background-position: center;
-    background-repeat: no-repeat;
+.iphone-11-pro {
+  background-image: url("../images/home/iphone11-pro-bg.jpg");
+  height: 480px;
+  text-align: center;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.iphone-11-pro-text{
-    padding-top: 46px;
+.iphone-11-pro-text {
+  padding-top: 46px;
 }
-.iphone-11-pro-text a{
-    padding: 10px;
+.iphone-11-pro-text a {
+  padding: 10px;
 }
 
-=======
 /* General Styling*/
 * {
   padding: 0;
@@ -232,36 +230,36 @@ sixth-section {
 
 /*Media Query*/
 /* Footer */
-@media (max-width: 768px){
-	.footer-links-wrapper ul {
-		display: none;
-	}
-	.footer-links-wrapper h3 {
-		padding: 10px 0;
-		border-bottom: 1px solid #ccc;
-	} 
-  .fifth-container{
-  background-image: url(../images/home/apple-card.jpg);
-}
-.sixth-container{
-  background-image: url(../images/home/apple-tv-background.jpg);
-}
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .fifth-container {
+    background-image: url(../images/home/apple-card.jpg);
+  }
+  .sixth-container {
+    background-image: url(../images/home/apple-tv-background.jpg);
+  }
 
-	.footer-links-wrapper h3::after {
-		font-family: "FontAwesome";
-		content: "\f078";
-		padding-left: 10px;
-		position: absolute;
-		right: 25px;	  
-	}
+  .footer-links-wrapper h3::after {
+    font-family: "FontAwesome";
+    content: "\f078";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
 
-	.footer-links-wrapper h3.expanded::after {
-		font-family: "FontAwesome";
-		content: "\f077";
-		padding-left: 10px;
-		position: absolute;
-		right: 25px;	  
-	}
+  .footer-links-wrapper h3.expanded::after {
+    font-family: "FontAwesome";
+    content: "\f077";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
 }
 @media (min-width: 768px) {
   /*Nav bar*/
@@ -287,5 +285,3 @@ sixth-section {
     margin-top: 10px;
   }
 }
->>>>>>> d48f79d3265a5115b17007d40a1c30f788a73c14
-
