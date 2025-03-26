@@ -146,6 +146,40 @@ sixth-section {
 .iphone11-container {
   background-image: url(../images/home/iphone11-colored.jpg);
 }
+.apple-watch {
+  background-image: url(../images/home/watch-series-5.jpg);
+}
+.apple-card {
+  background-image: url(../images/home/apple-card.jpg);
+}
+.apple-tv {
+  background-image: url(../images/home/apple-tv-background.jpg);
+}
+.macbook {
+  background-color: #fafafa;
+}
+.apple-airpod {
+  background-image: url(../images/home/air-pods.jpg);
+  background-size: initial;
+  background-color: black;
+  background-position: 50% 100%;
+}
+.apple-ipad {
+  background-image: url(../images/home/new-ipad.jpg);
+}
+
+@media (min-width: 768px) {
+  .unit-wrapper h1 {
+    font-size: 78px;
+    line-height: 58px;
+  }
+  .unit-wrapper .unit-part {
+    font-size: 38px;
+  }
+ 
+}
+
+
 /* Footer Styling */
 .footer-wrapper {
   background-color: #f5f5f7;
